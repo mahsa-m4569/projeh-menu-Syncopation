@@ -1,0 +1,502 @@
+ * {
+     margin-top: 0;
+     padding: 0;
+     scroll-behavior: smooth;
+ }
+
+ body {
+     background-image: url(/assets/images/pexels-artempodrez-5716001.jpg);
+     background-size: cover;
+     background-attachment: fixed;
+
+ }
+
+ .backGround1 {
+     background-image: url(/assets/images/pexels-alphatradezone-5833272.jpg);
+     background-size: cover;
+ }
+
+ .backGround2 {
+     background-image: url(/assets/images/pexels-wolfgang-weiser-467045605-19824201.jpg);
+     background-size: cover;
+
+ }
+
+ .hamberger:hover {
+     background-color: #e180a1;
+     width: 120px;
+ }
+
+ .hamberger:focus {
+     background-color: #4295e3;
+
+ }
+
+ .click {
+     line-height: 45px;
+     font-size: 12px;
+ }
+
+ header {
+     background: linear-gradient(37deg, #fff367, #bf3a3a, orange);
+     height: 150px;
+     border-radius: 20px;
+     color: aliceblue;
+     text-align: center;
+     top: 0;
+     position: sticky;
+ }
+
+ .tittle {
+     font-family: Arial;
+     font-size: 30px;
+     line-height: 120px;
+ }
+
+ a {
+     text-decoration: none;
+     color: #000000;
+ }
+
+ .hamberger {
+     width: 49px;
+     background-color: #bf3a3a;
+     height: 50px;
+     margin-top: 25px;
+     border-radius: 100%;
+     transition: all 2s;
+     text-align: center;
+
+ }
+
+ .text {
+     margin-left: 164px;
+ }
+
+ .textBox {
+     width: 358px;
+     height: 160px;
+     color: rgb(127 14 14);
+     background-color: aqua;
+     text-align: center;
+     margin-left: 700px;
+     margin-top: -200px;
+     border: 4px solid black;
+     box-shadow: 11px 10px 79px yellow;
+     border-radius: 3px 84px;
+     font-size: 26px;
+
+ }
+
+ .aboutText,
+ .aboutText5,
+ .aboutText8 {
+     font-size: 20px;
+     text-align: center;
+     margin-top: 541px;
+ }
+
+ .aboutText5 {
+     color: beige;
+ }
+
+ .aboutText8 {
+
+     color: aliceblue;
+ }
+
+ .aboutBox {
+     color: darkred;
+     margin-left: 193px;
+     font-size: 30px;
+     text-align: center;
+ }
+
+ .aboutBox1 {
+     color: #ff0000;
+     margin-left: 3px;
+     text-align: left;
+     font-size: 27px
+ }
+
+
+ .photo {
+     width: 700px;
+     height: 570px;
+     border-radius: 20px;
+     box-shadow: 10px 5px 20px #4295e3;
+     border: 2px solid blue;
+     margin-right: 50px;
+     margin-top: 33px;
+ }
+
+ .biographi {
+     display: flex;
+     flex-direction: row;
+     justify-content: flex-start;
+     align-items: stretch;
+
+ }
+
+ .listAbout {
+     list-style-type: none;
+     font-size: 23px;
+     margin-top: 40px;
+
+ }
+
+ .listAbout::before {
+     content: ">";
+     color: #1900ff;
+     font-size: 30px;
+ }
+
+ .aboutText1 {
+     text-align: center;
+     margin-top: 250px;
+
+ }
+
+
+ .chart {
+     width: 300px;
+     height: 22px;
+     background-color: #ff5b00;
+     position: relative;
+     left: 343px;
+     top: 141px;
+     border-radius: 20px;
+     margin-top: 20px;
+
+ }
+
+ .chartText1,
+ .chartText8 {
+     background-color: #fffda2cb;
+     margin-left: 526px;
+     margin-top: 56px;
+     position: relative;
+     left: 459px;
+     top: 149px;
+ }
+
+ .chartText8 {
+
+     left: 529px;
+ }
+
+ .chartText {
+     background-color: bisque;
+     position: relative;
+     left: 343px;
+     top: 137px;
+ }
+
+ .textResume {
+     background: linear-gradient(45deg, #ffb1b1, rgba(0, 255, 255, 0.808), #f94223c2);
+     border-radius: 20px;
+     border: 1px solid blue;
+     font-size: 19px;
+     margin-top: 30px !important;
+ }
+
+ img {
+     margin-left: 150px;
+     border-radius: 15px;
+     width: 200px;
+     margin-top: 60px;
+     transition: all 1s;}
+
+ .fixed-box {
+     width: 71px;
+     height: 60px;
+     background-color: rgb(214, 214, 3);
+     position: fixed;
+     bottom: 14px;
+     right: 18px;
+     border-radius: 100%;
+     text-align: center;
+     transition: all 1s;
+
+ }
+ .fixed-box:hover {
+    background-color: rgb(184, 111, 111);
+    cursor: grab;
+ }
+
+ .chart1 {
+
+     width: 300px;
+     height: 22px;
+     margin-top: 37px;
+     background-color: #ff0000;
+     position: relative;
+     left: 830px;
+     top: -118px;
+     border-radius: 20px;
+     border: 1px solid;
+ }
+
+ .chartText2 {
+     background-color: bisque;
+     position: relative;
+     left: 839px;
+     top: -100px;
+
+ }
+
+ .chartText3,
+ .chartText6 {
+     background-color: #fffda2cb;
+     margin-left: 526px;
+     margin-top: 56px;
+     position: relative;
+     top: -99px;
+
+ }
+
+ .chartText6 {
+
+     top: -102px;
+     right: -8px;
+ }
+
+ .chart2,
+ .chart6,
+ .chart7 {
+     width: 181px;
+     height: 23px;
+     background-color: #ffeb3b;
+     position: relative;
+     left: 343px;
+     top: 118px;
+     border-radius: 20px;
+     border: 1px solid red;
+ }
+
+ .chart6 {
+     width: 70px;
+ }
+
+ .chart7 {
+     width: 50px;
+ }
+
+
+ .chart3,
+ .chart4,
+ .chart5 {
+     width: 181px;
+     height: 23px;
+     background-color: #ffeb3b;
+     position: relative;
+     border-radius: 20px;
+     border: 1px solid red;
+     top: -4px;
+     left: 1px;
+ }
+
+ .chart4 {
+     width: 100px;
+ }
+
+ .chart5 {
+     width: 50px;
+ }
+ 
+
+
+ @media(max-width:700px) {
+
+     header {
+         background: linear-gradient(34deg, #fff367, #e74d4d, #adedfb);
+         height: 152px;
+         width: 750px;
+     }
+
+     .textBox {
+         background-color: #ffffffc2;
+         margin-left: 269px;
+     }
+
+     .aboutText {
+            margin-left: 17px;
+            color: #ff0000;
+            margin-top: 211px;
+
+     }
+
+     .aboutBox {
+         color: #000000;
+         margin-left: 42px;
+         font-size: 20px;
+     }
+
+     .photo {
+         width: 325px;
+         height: 276px;
+         border-radius: 82px;
+         box-shadow: 10px 5px 20px #E91E63;
+         border: 2px solid #E91E63;
+         margin-right: 20px;
+         margin-top: 39px;
+         margin-left: 49px;
+     }
+
+     .listAbout {
+         font-size: 29px;
+         color: #ffa700;
+     }
+
+     .chart {
+         width: 185px;
+         background-color: #73ff00;
+         left: 20px;
+
+     }
+
+     .chart2 {
+         width: 53px;
+         left: 17px;
+         top: 118px;
+         background-color: #ff0000
+     }
+
+     .chart7 {
+         width: 91px;
+         left: 17px;
+         top: 118px;
+         background-color: #b900ff;
+     }
+
+     .chart6 {
+         width: 53px;
+         left: 17px;
+         top: 118px;
+         background-color: #ff00b8;
+
+     }
+
+     .chartText {
+         background-color: #ffffff;
+         left: 15px;
+         top: 160px;
+     }
+
+     .chart1 {
+         width: 185px;
+         background-color: #ffe500;
+         left: 295px;
+         top: -127px;
+
+     }
+
+     .chart3 {
+         width: 114px;
+         background-color: #E91E63;
+         position: relative;
+         top: -2px;
+         left: 0px;
+     }
+
+     .chart4 {
+         width: 53px;
+         background-color: #e93d1e;
+         position: relative;
+         top: -2px;
+         left: 0px;
+     }
+
+     .chart5 {
+         width: 130px;
+         background-color: #e180a1;
+         position: relative;
+         top: -2px;
+         left: 0px;
+     }
+
+     .chartText2 {
+         background-color: #ffffff;
+         position: relative;
+         left: 302px;
+         top: -100px;
+     }
+
+     .chartText1 {
+         background-color: #fffda2cb;
+         margin-left: -116px;
+         margin-top: 79px;
+         position: relative;
+         left: 459px;
+         top: 147x;
+     }
+
+     .chartText8 {
+         margin-left: -114px;
+         left: 530px;
+         top: 148px;
+     }
+
+     .chartText3,
+     .chartText6 {
+         background-color: #fffda2cb;
+         margin-left: 88px;
+     }
+
+     .textResume {
+         background: linear-gradient(45deg, #ffa537, rgb(168 237 237 / 81%), #ff8671);
+         margin-left: 22px;
+         text-align: center;
+     }
+
+     .aboutBox1 {
+         color: #ff0000;
+         margin-left: -275px;
+         font-size: 27px;
+     }
+     .backGround1 {
+        background-image: url(/assets/images/pexels-alphatradezone-5833272.jpg);
+        background-size: cover;
+        width: 752px;
+    }
+    .backGround2 {
+    background-image: url(/assets/images/pexels-wolfgang-weiser-467045605-19824201.jpg);
+    background-size: cover;
+    width: 751px;
+}
+.hamberger:hover {
+    background-color: #80e1dc;
+    width: 85px;
+}
+.hamberger:focus {
+    background-color: #dbe6f0;
+
+}
+
+.hamberger{
+    background-color: #ffbebe;
+    transition: all 2s;
+}
+.aboutText8 {
+    font-size: 20px;
+    text-align: center;
+    margin-top: 154px;
+    margin-right: 94px;
+}
+.aboutText5 {
+    margin-top: 983px;
+}
+img {
+    margin-left: 85px}
+    .fixed-box {
+        width: 44px;
+        height: 34px;
+        background-color: rgb(94 249 197);
+        position: fixed;
+        bottom: 9px;
+        right: 16px;
+        border-radius: 100%;
+        text-align: center;
+        transition: all 1s;
+    }
+ }
